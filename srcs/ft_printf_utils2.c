@@ -6,13 +6,12 @@
 /*   By: fluchten <fluchten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 09:14:34 by fluchten          #+#    #+#             */
-/*   Updated: 2023/01/09 10:45:32 by fluchten         ###   ########.fr       */
+/*   Updated: 2023/01/25 19:10:29 by fluchten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-/* Print an unsigned int in hexadecimal and return its length */
 int	ft_putnbr_base(unsigned long nb, char *base)
 {
 	int	res;
@@ -24,7 +23,6 @@ int	ft_putnbr_base(unsigned long nb, char *base)
 	return (res);
 }
 
-/* Print the address of a pointer in hexadecimal */
 int	ft_putptr(unsigned long nb)
 {
 	int	res;
